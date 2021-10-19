@@ -3,9 +3,9 @@
 Check-DPreplication.ps1 - SCCM DP Server Health Check Script.
 
 .DESCRIPTION 
-ce Script permet d'effectuer les 1ers tests localement la bonne santé d'un point de distribution SCCM.
-Il v�rifie:
-* l'acc�s au site IIS
+ce Script permet d'effectuer les 1ers tests localement la bonne santÃ© d'un point de distribution SCCM.
+Il vérifie:
+* l'accès au site IIS
 * Si le serveur central est membre du groupe "admin local" du DP
 * S'il reste de l'espace disque libre sur les disques System et DATA
 
@@ -74,6 +74,6 @@ function Test-Freespace
 
 
 
-Test-SCCMisPresent -SCCMserver csiadmsrv01
+Test-SCCMisPresent -SCCMserver <server>
 
 test-fre
